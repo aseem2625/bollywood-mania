@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 
 export default class Modal extends Component {
   static propTypes = {
-    closePopUp: PropTypes.func.isRequired,
+    closePopUp: PropTypes.func,
     title: PropTypes.string.isRequired,
     content: PropTypes.object.isRequired
   }
@@ -30,6 +30,8 @@ export default class Modal extends Component {
 
   render() {
     const modalStyles = require('./Modal.scss');
+    const libStyles = require('../../styles/library.scss');
+
     let titleHtml = '';
     let closeButton;
 
@@ -45,8 +47,8 @@ export default class Modal extends Component {
     }
 
     return (
-      <div className={modalStyles.modalContainer + ' js-sz-modal-container'} onClick={this.closeModal} >
-        <div className={modalStyles.modalBody}>
+      <div className={modalStyles.modalContainer + ' js-sz-modal-container'}>
+        <div className={modalStyles.modalBody + ' ' + libStyles.pageCenter}>
           {titleHtml}
           <div className={modalStyles.modalContent}>
             {this.props.content}
