@@ -1,11 +1,11 @@
 import { routerReducer as routing } from 'react-router-redux';
 import { combineReducers } from 'redux';
-import dashboard from './modules/dashboard';
+import app from './app';
 
 
 const rootReducer = combineReducers({
     routing,
-    dashboard
+    app
 });
 
 export default rootReducer;
