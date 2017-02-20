@@ -50,7 +50,7 @@ export default class Home extends Component {
         this.addRipple = this.addRipple.bind(this);
 
         this.timer = {};
-        this.limitTimer = 1;
+        this.limitTimer = 3;
         this.limitQuests = 5;
     }
 
