@@ -1,7 +1,7 @@
 {
-  "name": "simple-dropbox-clone",
+  "name": "simple-bollywood-quiz",
   "version": "1.0.0",
-  "description": "A simple Client side dropbox clone.",
+  "description": "Client side quiz application",
   "main": "index.js",
   "scripts": {
     "test": "",
