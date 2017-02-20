@@ -33,10 +33,10 @@ https://github.com/jpsierens/webpack-react-redux.git
 0. Open localhost:3000, you'll see landing page to ask your user name
 <img src="/docs/screenshots/1.png" alt="Landing page" width="550">
 
-0. Enter your user name and press Play
+0. Enter your user name and press Play to start the quiz (No user name, No quiz!)
 <img src="/docs/screenshots/2.png" alt="Enter username and start playing" width="550">
 
-0. Timer of 3 seconds will be shown
+0. Timer of 3 seconds will be shown in the beginning of quiz.
 <img src="/docs/screenshots/3.png" alt="3 seconds timer" width="550">
 
 0. Questions screen looks like this. Only 1 options is correct. Click on each button brings ripple effect
